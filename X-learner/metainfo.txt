@@ -1,0 +1,14 @@
+
+Name of Quantlet: X-learner
+
+Published in: 'CATE meets MLE - A tutorial'
+
+Description: X-learner method to estimate the conditional average treatment effect (CATE) via a variety of machine learning (ML) methods. 
+
+Keywords: 'CATE, ML, X-learner, causal-inference, treatment'
+
+Author: 'Daniel Jacob'
+
+See also: ''
+
+Submitted:  '10.02.2021'
