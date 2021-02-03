@@ -1,0 +1,14 @@
+
+Name of Quantlet: TO-learner
+
+Published in: 'CATE meets MLE - A tutorial'
+
+Description: Transformed-outcome method to estimate the conditional average treatment effect (CATE) via a variety of machine learning (ML) methods. 
+
+Keywords: 'CATE, ML, transformed outcome, causal-inference, treatment'
+
+Author: 'Daniel Jacob'
+
+See also: ''
+
+Submitted:  '10.02.2021'
