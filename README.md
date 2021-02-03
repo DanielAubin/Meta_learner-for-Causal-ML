@@ -1,6 +1,7 @@
 # Meta-learners for Causal-ML
 
-This repository collects Meta-Learners for causal inference estimation. 
+This repository collects Meta-learners for causal inference estimation. 
+
 The datastructure has to be the following: 
 
 * y = outcome variable
