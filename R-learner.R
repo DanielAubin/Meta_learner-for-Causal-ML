@@ -1,4 +1,4 @@
-DR_learner <- function(df_aux,df_main,covariates,learners){
+R_learner <- function(df_aux,df_main,covariates,learners){
 
 
 p_mod <- SuperLearner(Y = df_aux$d, X = df_aux[,covariates], newX = df_main[,covariates], SL.library = learners,
