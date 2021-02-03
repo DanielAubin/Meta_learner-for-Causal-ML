@@ -5,7 +5,7 @@ Published in: 'CATE meets MLE - A tutorial'
 
 Description: R-learner (or orthogonal-learner) method to estimate the conditional average treatment effect (CATE) via a variety of machine learning (ML) methods. 
 
-The datastructure has to be the following: 
+The data structure has to be the following: 
 
 * y = outcome variable
 * d = treatment variable
