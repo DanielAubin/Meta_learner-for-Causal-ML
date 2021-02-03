@@ -1,4 +1,4 @@
-# Meta_learner-for-Causal-ML
+# Meta-learners for Causal-ML
 
 This repository collects Meta-Learners for causal inference estimation. 
 The datastructure has to be the following: \\
