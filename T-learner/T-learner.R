@@ -14,7 +14,7 @@ control <- SuperLearner.CV.control(V=5)
 
 
 
-T_learner <- function(df_aux,df_main,covariates){
+T_learner <- function(df_aux,df_main,covariates,learners){
   
   
   aux_1 <- df_aux[which(df_aux$d==1),]
