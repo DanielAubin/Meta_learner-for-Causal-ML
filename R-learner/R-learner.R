@@ -37,7 +37,7 @@ weights = w_tilde^2
 
 
 a  <- tryCatch({
-  R_mod <- SuperLearner(Y = pseudo_outcome, X = df_main[,covariates], newX = test_data[,covariates], SL.library = learners,
+  R_mod <- SuperLearner(Y = pseudo_outcome, X = df_main[,covariates], newX = df_main[,covariates], SL.library = learners,
                         verbose = FALSE, method = "method.NNLS",obsWeights = weights[,1],cvControl = control)
   score_R <- R_mod$SL.predict
   a <- score_R
@@ -46,7 +46,7 @@ a  <- tryCatch({
 },error=function(e){
   
   mean_score <- weighted.mean(pseudo_outcome, w = weights)
-  score_R <- rep.int(mean_score, times = nrow(test_data))
+  score_R <- rep.int(mean_score, times = nrow(df_main))
   a <- score_R
   return(a)
 })
