@@ -1,0 +1,22 @@
+Name of Quantlet: Simple_Example_CATE
+
+Published in: 'CATE meets MLE - A tutorial'
+
+Description: A simple example of treatment effect heterogeneity given characteristics. 
+
+The data structure has to be the following: 
+
+* y = outcome variable
+* d = treatment variable
+* X = a covariate
+* tau = treatment effect: If X<0, tau = 4; if X>0, tau = 10
+
+
+
+Keywords: 'CATE, ML, example, causal-inference, treatment'
+
+Author: 'Daniel Jacob'
+
+See also: ''
+
+Submitted:  '10.02.2021'
