@@ -59,7 +59,7 @@ a  <- tryCatch({
 },error=function(e){
   
   mean_score <- mean(y_mo)
-  score_dr <- rep.int(mean_score, times = nrow(test_data))
+  score_dr <- rep.int(mean_score, times = nrow(df_main))
   a <- score_dr
   return(a)
 })
