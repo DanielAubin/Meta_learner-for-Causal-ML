@@ -1,0 +1,15 @@
+Name of Quantlet: Bootstrap_CI
+
+Published in: 'CATE meets MLE - A tutorial'
+
+Description: Estimates confidence intervals based on the bootstrapping and a gaussian assumption
+
+
+
+Keywords: 'CATE, ML, bootstrap,confidence-intervals, causal-inference, treatment'
+
+Author: 'Daniel Jacob'
+
+See also: ''
+
+Submitted:  '10.02.2021'
