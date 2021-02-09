@@ -1,0 +1,20 @@
+Name of Quantlet: Causal_BART
+
+Published in: 'CATE meets MLE - A tutorial'
+
+Description: Causal Bayesian additive regression tree method to estimate the conditional average treatment effect (CATE) via a variety of machine learning (ML) methods. 
+
+The data structure has to be the following: 
+
+* y = outcome variable
+* d = treatment variable
+* covariates = the covariates to map on d or y
+
+
+Keywords: 'CATE, ML, causal BART, causal-inference, treatment'
+
+Author: 'Daniel Jacob'
+
+See also: ''
+
+Submitted:  '10.02.2021'
