@@ -287,10 +287,7 @@ cate_CForest <- as.data.frame(cbind(pred,X5.,X95.))
 
 # Calculate confidence intervals based on bootstrapping 
 
-cate_DR <- bootCI(results_cate_DR)
-cate_R <- bootCI(results_cate_R)
-cate_T <- bootCI(results_cate_T)
-cate_X <- bootCI(results_cate_X)
+# See file median_CATE.R and run first 
 
 
 # Prepare data for plot
@@ -351,7 +348,7 @@ res <- lapply(cate_list, quantiles)
 res
 
 
-### Classification Analysis
+
 
 
 
