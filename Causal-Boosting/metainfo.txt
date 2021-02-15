@@ -1,0 +1,20 @@
+Name of Quantlet: Causal_Boosting
+
+Published in: 'CATE meets MLE - A tutorial'
+
+Description: Causal Boosting (regression tree) method to estimate the conditional average treatment effect (CATE) via a variety of machine learning (ML) methods. 
+
+The data structure has to be the following: 
+
+* y = outcome variable
+* d = treatment variable
+* covariates = the covariates to map on d or y
+
+
+Keywords: 'CATE, ML, causal Boosting, causal-inference, treatment'
+
+Author: 'Daniel Jacob'
+
+See also: 'https://github.com/saberpowers/causalLearning'
+
+Submitted:  '10.02.2021'
